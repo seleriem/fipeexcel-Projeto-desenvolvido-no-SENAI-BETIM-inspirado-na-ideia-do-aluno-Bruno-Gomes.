@@ -14,7 +14,12 @@ RNF: 003 - O usuário deve ter instalado em seu computador o Python na versão 3
 
 Regras de Negócio Regra de Negócio: 001 - Consulta a Tabela FIPE. A consulta a tabela FIPE deve ser feita pelo código oficial do veículo, todo véiculo possui um código, gerenciado pela organização que cuida da FIPE.- Requisito Funcional - 001.
 
-Caso de Uso uc001
+Caso de Uso:
+
+![WhatsApp Image 2022-05-02 at 20 51 45 (1)](https://user-images.githubusercontent.com/103469541/166345397-7cdf021e-9484-4ea9-b2df-9f45a77e20db.jpeg)
+
+O usuário deve acessar a opção da planilha gerada por e-mail. O usuário insere o email desejado e clica no botão selecionar para buscar o relatório em excel. Ele então seleciona o relatório e clica na opção enviar. O sistema emite um alerta dizendo que o email com o relatório foi enviado com sucesso.
+
 
 Caso de Uso: Enviar Tabela por Email
 
@@ -31,7 +36,11 @@ O sistema deve realizar uma busca através de uma API Web que traz dados oficiai
 
 Diagrama de Classe
 diagrama_classe
-trampo
+
+![WhatsApp Image 2022-05-02 at 20 51 30](https://user-images.githubusercontent.com/103469541/166345564-5abf3cde-85b1-49af-b590-37a62229bcb1.jpeg)
+
 
 Diagrama de Atividade
 png diagrama de atividade
+
+![diagrama StarUML](https://user-images.githubusercontent.com/103469541/166345611-ad20a95e-a2e8-4a2b-9f67-5fb9befedfb8.jpg)
